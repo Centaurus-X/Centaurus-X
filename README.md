@@ -1,7 +1,7 @@
+# Centaurus-X (Cetux)
+
 <!-- Tux image by Larry Ewing (lewing@isc.tamu.edu), created with The GIMP -->
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" alt="Tux, the Linux mascot" align="right" width="96">
-
-# Centaurus-X (Cetux)
 
 **Industrial Automation · Secure Gateways · Linux Systems Engineering · Cybersecurity**
 
@@ -15,6 +15,8 @@ Based in Germany — developing on and for Linux.
 
 [![GitHub followers](https://img.shields.io/github/followers/Centaurus-X?style=social)](https://github.com/Centaurus-X)
 [![GitHub stars](https://img.shields.io/github/stars/Centaurus-X?affiliations=OWNER&style=social)](https://github.com/Centaurus-X)
+
+<br clear="right">
 
 ---
 
