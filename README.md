@@ -13,68 +13,43 @@
 
 Systems engineer and developer building **robust, secure, and practical infrastructure** for industrial environments and high-security systems.
 
-I develop and maintain the **Centaurus-X** ecosystem — a focused collection of production-oriented tools and playbooks covering:
+Current focus areas:
 
-- Hardware control runtimes and distributed automation stacks
-- Reliable gateways between modern web protocols and industrial messaging (MQTT)
+- Network security appliances with TLS inspection and inline IPS (Suricata)
+- Network discovery and scanning tooling
 - Simulation & testing tools for industrial protocols (Modbus)
 - Comprehensive Linux systems engineering knowledge bases
-- Advanced network security appliances with deep packet inspection
 
-Strong focus on **real-world deployability**, security, clean architecture, and excellent documentation.
-
----
-
-## 🚀 Featured Projects
-
-### [fluux_control_runtime](https://github.com/Centaurus-X/fluux_control_runtime)
-**Hardware Control Server Runtime**  
-Core runtime component of the Centaurus-X industrial automation stack. Handles configuration contracts, device state, queues, MQTT/MQTTS bridging with full mTLS + PKI support, fieldbus communication (Modbus), health snapshots, and systemd integration. Production-ready with free-threading Python support.
-
-**Topics:** `industrial-automation` `hardware-control` `mqtt` `modbus` `python` `server-runtime`
-
-[View Repository →](https://github.com/Centaurus-X/fluux_control_runtime)
+Strong focus on **real-world deployability**, security, clean architecture, and honest, evidence-based project maturity labeling.
 
 ---
 
-### [fluux_control_gateway](https://github.com/Centaurus-X/fluux_control_gateway)
-**WebSocket ↔ MQTT Gateway**  
-Robust gateway that bridges WebSocket clients with MQTT infrastructure. A key building block for modern industrial control systems requiring real-time communication between web frontends and backend messaging layers.
+## 🚀 Active Projects
 
-[View Repository →](https://github.com/Centaurus-X/fluux_control_gateway)
+### Active Security & Networking
 
----
+- [os-nxtgenappliance](https://github.com/Centaurus-X/os-nxtgenappliance) — Alpha / Pre-Production OPNsense security plugin: outbound TLS inspection with inline Suricata IPS, inbound reverse-proxy/WAF, enforced DoT DNS, identity-aware scoped policy
+- [Phimantic-IPS-Security-Appliance](https://github.com/Centaurus-X/Phimantic-IPS-Security-Appliance) — standalone Suricata/TLS inspection appliance (C11 proxy, FlowBus verdict enforcement, fail-closed security model)
+- [squid-ng](https://github.com/Centaurus-X/squid-ng) — laboratory and research proxy fork (Squid-based two-proxy TLS inspection with external IDS/IPS verdict path)
+- [advanced_network_scanner](https://github.com/Centaurus-X/advanced_network_scanner) — cross-platform Rust LAN scanner with CLI-first architecture and optional WebSocket server
 
-### [simple_modbus_server_dummy_endpoint](https://github.com/Centaurus-X/simple_modbus_server_dummy_endpoint)
-**Modbus TCP Simulation Server**  
-Python-based Modbus TCP simulator with a clean browser-based dashboard. Ideal for development, testing, and education of industrial control systems without physical hardware.
+### Industrial Testing
 
-[View Repository →](https://github.com/Centaurus-X/simple_modbus_server_dummy_endpoint)
+- [advanced_modbus_server_dummy_endpoint](https://github.com/Centaurus-X/advanced_modbus_server_dummy_endpoint) — Modbus TCP simulation and testing server with browser-based dashboard
 
----
+### Engineering Knowledge
 
-### [linux-engineering-playbook](https://github.com/Centaurus-X/linux-engineering-playbook) ⭐
-**Practical Linux Systems Engineering Playbook**  
-Curated, version-controlled collection of operational guides covering:
-
-- GPU/CUDA & NVIDIA driver setups (incl. TensorFlow/PyTorch validation)
-- Proxmox VE virtualization & GPU passthrough
-- Advanced Python environments & free-threading builds
-- Linux administration & service integrations (systemd, PostgreSQL, etc.)
-
-A practical reference for engineers running AI/ML workloads or complex Linux infrastructure.
-
-[View Repository →](https://github.com/Centaurus-X/linux-engineering-playbook)
+- [linux-engineering-playbook](https://github.com/Centaurus-X/linux-engineering-playbook) — Linux systems engineering documentation: GPU/CUDA, Proxmox VE, Python environments, services and administration
 
 ---
 
-### [Phimantic-IPS-Security-Appliance](https://github.com/Centaurus-X/Phimantic-IPS-Security-Appliance)
-**Suricata-based TLS Inspection Security Appliance**  
-High-performance IPS appliance written in C with Suricata at its core. Features C11 proxy, FlowBus verdict enforcement, H1.1-only TLS bumping, comprehensive ruleset management, and a web-based monitoring interface.
+## 📦 Archived Projects
 
-Designed for demanding deep packet inspection and network security scenarios.
+Preserved pre-production snapshots. Frozen, read-only, kept for reference — not production-ready.
 
-[View Repository →](https://github.com/Centaurus-X/Phimantic-IPS-Security-Appliance)
+- [fluux_control_runtime](https://github.com/Centaurus-X/fluux_control_runtime) — archived pre-production hardware-control runtime snapshot
+- [fluux_control_gateway](https://github.com/Centaurus-X/fluux_control_gateway) — archived pre-production WebSocket-to-MQTT gateway snapshot
+- [path-b-external-suricata-ips_v8.0-beta1-r11-preproduction-testing](https://github.com/Centaurus-X/path-b-external-suricata-ips_v8.0-beta1-r11-preproduction-testing) — archived pre-production Suricata/ICAP architecture and validation snapshot
 
 ---
 
@@ -82,15 +57,15 @@ Designed for demanding deep packet inspection and network security scenarios.
 
 | Category              | Key Technologies                                      |
 |-----------------------|-------------------------------------------------------|
-| **Languages**         | Python (free-threading), C, Bash                      |
+| **Languages**         | Python (free-threading), C, Rust, Bash                |
 | **Industrial / OT**   | Modbus TCP, MQTT/MQTTS (mTLS, PKI), Fieldbus          |
 | **Networking & IoT**  | WebSockets, MQTT, TLS Inspection, Proxies             |
 | **Security**          | Suricata IPS/IDS, Deep Packet Inspection              |
-| **Infrastructure**    | Linux (systemd), Proxmox VE, NVIDIA GPU/CUDA          |
-| **Practices**         | Production deployment, Health monitoring, Dual licensing (GPL-3.0 + Commercial) |
+| **Infrastructure**    | Linux (systemd), FreeBSD/OPNsense, Proxmox VE, NVIDIA GPU/CUDA |
+| **Practices**         | Health monitoring, release evidence & verification, dual licensing (GPL-3.0 + Commercial) |
 
 ---
 
-## 📫 Let's Connect
+## 📫 Contact
 
-- Open
+For questions about a specific project, please use the issue tracker of the respective repository.
