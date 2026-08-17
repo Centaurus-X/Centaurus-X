@@ -1,8 +1,17 @@
-# 👋 Centaurus-X (Cetux)
+<!-- Tux image by Larry Ewing (lewing@isc.tamu.edu), created with The GIMP -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" alt="Tux, the Linux mascot" align="right" width="96">
 
-**Industrial Automation • Secure Gateways • Linux Systems Engineering • Cybersecurity**
+# Centaurus-X (Cetux)
 
-📍 Germany
+**Industrial Automation · Secure Gateways · Linux Systems Engineering · Cybersecurity**
+
+Based in Germany — developing on and for Linux.
+
+[![Linux](https://img.shields.io/badge/Linux-primary_platform-FCC624?logo=linux&logoColor=black)](https://github.com/Centaurus-X/linux-engineering-playbook)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black)
+![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white)
 
 [![GitHub followers](https://img.shields.io/github/followers/Centaurus-X?style=social)](https://github.com/Centaurus-X)
 [![GitHub stars](https://img.shields.io/github/stars/Centaurus-X?affiliations=OWNER&style=social)](https://github.com/Centaurus-X)
@@ -24,9 +33,9 @@ Strong focus on **real-world deployability**, security, clean architecture, and 
 
 ---
 
-## 🚀 Active Projects
+## Active Projects
 
-### Active Security & Networking
+### Security & Networking
 
 - [os-nxtgenappliance](https://github.com/Centaurus-X/os-nxtgenappliance) — Alpha / Pre-Production OPNsense security plugin: outbound TLS inspection with inline Suricata IPS, inbound reverse-proxy/WAF, enforced DoT DNS, identity-aware scoped policy
 - [Phimantic-IPS-Security-Appliance](https://github.com/Centaurus-X/Phimantic-IPS-Security-Appliance) — standalone Suricata/TLS inspection appliance (C11 proxy, FlowBus verdict enforcement, fail-closed security model)
@@ -43,7 +52,7 @@ Strong focus on **real-world deployability**, security, clean architecture, and 
 
 ---
 
-## 📦 Archived Projects
+## Archived Projects
 
 Preserved pre-production snapshots. Frozen, read-only, kept for reference — not production-ready.
 
@@ -53,7 +62,7 @@ Preserved pre-production snapshots. Frozen, read-only, kept for reference — no
 
 ---
 
-## 🛠️ Technologies & Skills
+## Technologies & Skills
 
 | Category              | Key Technologies                                      |
 |-----------------------|-------------------------------------------------------|
@@ -66,6 +75,6 @@ Preserved pre-production snapshots. Frozen, read-only, kept for reference — no
 
 ---
 
-## 📫 Contact
+## Contact
 
 For questions about a specific project, please use the issue tracker of the respective repository.
