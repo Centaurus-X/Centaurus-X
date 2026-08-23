@@ -1,11 +1,14 @@
 <!--
 Centaurus-X GitHub Profile README
-Version: 1.2
+Version: 1.2.1
 Updated: 2026-08-23
 Purpose: Public GitHub profile README
 -->
 
 # Centaurus-X
+
+<!-- Tux image by Larry Ewing (lewing@isc.tamu.edu), created with The GIMP -->
+<a href="https://github.com/Centaurus-X/linux-engineering-playbook"><img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" alt="Tux, the Linux mascot" align="right" width="118"></a>
 
 ### Industrial Automation · OT Security · Distributed Systems · Linux Systems Engineering
 
@@ -22,6 +25,8 @@ with explicit attention to **authority, failure behavior, security boundaries, r
 **Germany / EU · Remote-first**
 
 > Open to selected remote engineering, architecture, integration and security projects.
+
+<br clear="right">
 
 ---
 
