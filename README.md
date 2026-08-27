@@ -25,5 +25,3 @@ My current public software developing & engineering portfolio connects four laye
 ### Industrial Automation · OT Security · Distributed Systems · Linux Systems Engineering
 
 I design and build **evidence-backed industrial software and secure infrastructure** for systems that interact with real plants, field devices, networks and operational constraints.
-
-My current public software development & engineering portfolio connects four layers that are often treated separately:
